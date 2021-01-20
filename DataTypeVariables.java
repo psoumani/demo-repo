@@ -11,7 +11,6 @@ public class DataTypeVariables {
         System.out.println("The value of the instance variable 'title' is: " +obj.title);
         System.out.println("The value of the static variable 'year' is: " +year);
         System.out.println("The value of the local variable 'letter' is: " +letter);
-        System.out.println("I want to be a " +obj.title);
     }
     
 }
