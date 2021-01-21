@@ -1,30 +1,13 @@
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
 public class TestGreatestNumber {
-
-    public static void main(String[] args) {
-        int a = 8;
-        int b = 12;
-        int c = 7;
-        int result; 
-        
-        result = greatest(a, b, c);
-
-        System.out.println("The greatest number between " +a + " , " +b + " and " +c + " is " +result);
-        
+   
+    @Test
+    public void testGreatestNumber() {
+        assertEquals(25, GreatestNumber.greatest(12, 25, 23));
+        assertEquals(5, GreatestNumber.greatest(3, 5, 5));
     }
-    
-    public static int greatest(int num1, int num2, int num3) {
-        int result;
 
-        if (num1>num2 && num1>num3) {
-            result = num1;
-        }
-        else if (num2>num1 && num2>num3) {
-            result = num2;
-        }
-        else {
-            result = num3;
-        }
-        return result;
-        
-    }
 }
