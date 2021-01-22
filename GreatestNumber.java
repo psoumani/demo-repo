@@ -2,14 +2,10 @@ public class GreatestNumber {
 
     public static void main(String[] args) {
         int a = 8;
-        int b = 12;
+        int b = 16;
         int c = 12;
-        int result; 
         
-        result = greatest(a, b, c);
-
-        System.out.println("The greatest number between " +a + " , " +b + 
-                " and " +c + " is " +result);
+        greatest(a, b, c);
         
     }
     
@@ -26,6 +22,10 @@ public class GreatestNumber {
         else {
             result = num3;
         }
+
+        System.out.println("The greatest number between " +num1 + " , " +num2 + 
+                " and " +num3 + " is " +result);
+
         return result;
 
     }
