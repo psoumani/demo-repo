@@ -6,7 +6,6 @@ public class GreatestNumber {
         int c = 12;
         
         greatest(a, b, c);
-        
     }
     
     public static int greatest(int num1, int num2, int num3) {
@@ -27,7 +26,5 @@ public class GreatestNumber {
                 " and " +num3 + " is " +result);
 
         return result;
-
     }
-
 }
